@@ -1,0 +1,38 @@
+<div class="container" x-data="login()">
+    <h1 class="font-lg text-accent font-weight-bold">Antony Bank</h1>
+    <form x-on:submit.prevent="check" class="p-5 raise-1-primary">
+        <input x-model="data.pin" type="text" placeholder="your pin" class="text-primary b-1  b-primary p-x-3 p-y-1">
+        <button type="submit" class="text-primary b-1  b-primary p-x-3 p-y-1 bg-transparent">submit</button>
+        <div class="box m-2 bg-warning text-white p-3 b-rounded" x-show="!data.pristine&&!data.result">
+            Nope, sorry.
+        </div>
+        <div class="box m-2 bg-success text-white p-3 b-rounded" x-show="!data.pristine&&data.result">
+            You got it
+        </div>
+    </form>
+</div>
+
+<script>
+    function login(){
+        return {
+            data: {
+                pin: '',
+                result: false,
+                pristine:true
+            },
+            async check(){
+                this.data.pristine = false;
+                try{
+                    let {data} = await axios.post('{{base}}/api.v1/auth', {code: this.data.pin});
+                    console.log(data);
+                    this.data.result = true;
+                } catch (e) {
+                    console.error(e)
+                    this.data.result = false;
+                }
+
+
+            }
+        }
+    }
+</script>
