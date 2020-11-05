@@ -29,7 +29,7 @@ class Auth extends Demo{
     {
         $this->previous = json_decode(file_get_contents(__DIR__ . '/previous.json'), true);
         $this->ensureCombo();
-        $this->ipCheck();
+//        $this->ipCheck();
         if(!isset($body['code'])){
             throw new RouteException('missing property "code"', 400);
         }
