@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e59e8f3-9123-4bbe-814a-7ac9ca0b287e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/component/home/home.view.html" beforeDir="false" afterPath="$PROJECT_DIR$/component/home/home.view.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +38,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604523847056</updated>
-      <workItem from="1604523848966" duration="4781000" />
+      <workItem from="1604523848966" duration="5552000" />
     </task>
+    <task id="LOCAL-00001" summary="deploy">
+      <created>1604529971683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604529971683</updated>
+    </task>
+    <task id="LOCAL-00002" summary="deploy">
+      <created>1604530109377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604530109377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="deploy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1604525130215">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1440.174.1440.860@0.0.1920.1040" timestamp="1604525130215" />
+    <state x="496" y="0" key="CommitChangelistDialog2" timestamp="1604530109013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="496" y="0" key="CommitChangelistDialog2/0.0.1920.1040/-1440.174.1440.860@0.0.1920.1040" timestamp="1604530109013" />
     <state x="820" y="422" key="Github.ShareDialog" timestamp="1604529901862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -61,5 +85,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="491" y="165" key="SettingsEditor/0.0.1920.1040/-1440.174.1440.860@0.0.1920.1040" timestamp="1604524140051" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604530110953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1440.174.1440.860@0.0.1920.1040" timestamp="1604530110953" />
   </component>
 </project>
